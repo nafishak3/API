@@ -1,4 +1,4 @@
-package API.Data_Provider;
+package Data_Provider;
 
 import API.ReusableMethods_validation;
 import File.Payload;

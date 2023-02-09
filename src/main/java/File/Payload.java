@@ -8,7 +8,7 @@ public class Payload {
                 "    \"lng\": 33.427362\n" +
                 "  },\n" +
                 "  \"accuracy\": 50,\n" +
-                "  \"name\": \"Nafisha Kahn\",\n" +
+                "  \"name\": \"Nafisha Khan\",\n" +
                 "  \"phone_number\": \"(+91) 983 893 3937\",\n" +
                 "  \"address\": \"29, side layout, cohen 09\",\n" +
                 "  \"types\": [\n" +
@@ -65,6 +65,9 @@ public class Payload {
                          "}\n";
 
             return book;
+    }
+    public static String notePath(){
+        return "C:\\Users\\khano\\OneDrive\\Desktop\\AddPlace.json";
     }
 
 }

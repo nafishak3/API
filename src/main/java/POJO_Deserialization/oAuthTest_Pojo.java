@@ -1,4 +1,4 @@
-package POJO;
+package POJO_Deserialization;
 
 import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;

@@ -18,4 +18,18 @@ Jira.txt
 ____________________________________________________________
 oAuth:
 oAuthTest
+____________________________________________________________
+POJO_Deserialization:
+oAuth_POJO
+POJO_response
+Courses_
+WebAutomation_courses
+API_courses
+Mobile_courses
+____________________________________________________________
+POJO_Serialization:
+SerializeTest
+AddPlace
+Location
+
 

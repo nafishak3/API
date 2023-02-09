@@ -1,7 +1,6 @@
-package POJO;
+package POJO_Deserialization;
 
-public class API_courses {
-
+public class Mobile_courses {
     private String courseTitle;
     private String price;
 
@@ -21,4 +20,3 @@ public class API_courses {
         this.price = price;
     }
 }
-

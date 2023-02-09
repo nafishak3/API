@@ -1,9 +1,8 @@
 package APITest;
 
-import API.Data_Provider.GetData;
+import Data_Provider.GetData;
 import API.ReusableMethods_validation;
 import File.Payload;
-import Libary.DynamicJson;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import org.testng.annotations.DataProvider;

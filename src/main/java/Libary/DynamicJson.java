@@ -1,13 +1,10 @@
 package Libary;
 
-import API.Data_Provider.GetData;
 import API.ReusableMethods_validation;
 import File.Payload;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
-import org.testng.annotations.DataProvider;
 
-import java.util.Locale;
 import static io.restassured.RestAssured.*;
 
 public class DynamicJson {

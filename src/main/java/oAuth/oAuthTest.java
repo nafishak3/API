@@ -1,8 +1,5 @@
 package oAuth;
 
-import API.ReusableMethods_validation;
-import POJO.POJO_Response;
-import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
 
 import static io.restassured.RestAssured.given;

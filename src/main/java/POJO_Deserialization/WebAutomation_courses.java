@@ -1,6 +1,6 @@
-package POJO;
+package POJO_Deserialization;
 
-public class Mobile_courses {
+public class WebAutomation_courses {
     private String courseTitle;
     private String price;
 
@@ -19,4 +19,6 @@ public class Mobile_courses {
     public void setPrice(String price) {
         this.price = price;
     }
+
+
 }

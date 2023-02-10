@@ -33,6 +33,7 @@ public class SpecBuilderTest {
         addObject.setTypes(typesList);
 
         RequestSpecification requestObject = new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com")
+//                it hold all given
                 .addQueryParam("key","qaclick123")
                 .setContentType(ContentType.JSON).build();
 
@@ -43,6 +44,7 @@ public class SpecBuilderTest {
         addObject.setLocation(locationObject);
 
         ResponseSpecification respondSpecification = new ResponseSpecBuilder()
+//                Hold all then
                 .expectStatusCode(200).expectContentType(ContentType.JSON).build();
 
         RequestSpecification res2 = given().spec(requestObject)

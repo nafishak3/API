@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 
 public class GetDataTest {
+//    DataProvider helps us to run a test method multiple times by passing different data-sets.
     @Test(dataProvider = "getdata")
     public static void addBookWithObject(String aisle, String isbn ){
 

@@ -13,9 +13,9 @@ import static org.hamcrest.Matchers.*;
 public class Basics {
 //validate if add place API is working as expected
 //        Rest assured work's on 3 principals of API
-//            given: All input details
-//            when: submit the API  -- Resource and http method will go inside this
-//            Then: Validate the response
+//            given: All input details -- parameters, headers and body
+//            when: submit the API  -- Resource and http method will go inside this , the resource and http call
+//            Then: Validate the response -- has assert, status code, extract, respose
         public static void main(String[] args) {
 
 

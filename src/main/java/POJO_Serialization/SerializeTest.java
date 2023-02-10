@@ -9,6 +9,8 @@ import java.util.List;
 import static io.restassured.RestAssured.given;
 
 public class SerializeTest {
+
+//    Wehn im giving the body.. it is serialization
     public static void main(String[] args) {
     RestAssured.baseURI = "https://rahulshettyacademy.com";
 

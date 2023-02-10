@@ -39,6 +39,7 @@ public class oAuthTest_Pojo {
                 .expect().defaultParser(Parser.JSON)
                 .when().get("https://rahulshettyacademy.com/getCourse.php")
                 .as(POJO_Response.class);
+//        when i am getting from the response  body it is deserialization
 
         System.out.println(gc.getLinkedin());
         System.out.println(gc.getInstructor());
